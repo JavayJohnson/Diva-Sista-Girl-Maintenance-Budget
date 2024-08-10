@@ -1,35 +1,4 @@
 
-// const legalAgeFunc = () => {
-//   let usersAge = prompt(" Enter Age");
-//   let ageToDrive = 18;
-//   let ageToDrink = 21;
-//   let ageToRentCar = 25;
-
-//   if (usersAge >= ageToDrive && usersAge >= ageToDrink) {
-//     console.log("Congrats! Come get your permit! and have a drink");
-//   } else {
-//     console.log("You are not of age.");
-//   }
-// };
-// // Demo 2 _ IF Statement MULTI Conditional
-
-
-// Conditional Breakdown: 
-    // if(userInput === '10'){
-    //     alert("Perfect 10 BRO")
-    // }
-    // else{
-    //     alert("Thats Just the way it goes.")
-    // }
-
-// =================if Statement: uses () to evaluate a stmnt to see if result = true.
-    // --> true : {}first code block executes
-    // --> false: {}else code block executes
-
-
-// -----------------------------------------------------------------------------------------------------------------
-//   create 10 variables
-// Diva Well-being Monthly Maintenance Budget
   let monthlyBudget = 2000;
   let hairSalon = 200;
   let nailSpa = 150;
@@ -43,12 +12,9 @@
   let poppingChampagne = 300;
   let totalExpenses = hairSalon + nailSpa + skinCareproducts + fitnessClass + wardrobeSubscriptions + facial + massage + yoga + foodSubscription + poppingChampagne;
 
-  // 2. Perform calculations(*operator) on vars and create new Vars
-//caculate remaining balance
-// let remainingBalance  = totalExpenses - monthlyBudget;
 let remainingBalance = monthlyBudget - totalExpenses;
 
-//3. Create 3 if Statements and test their outputs in console.
+
 
 if (remainingBalance > 0) {
   console.log(`${remainingBalance} is positive. You have $${remainingBalance} left! Keep slaying, Javay! You are stacking RACKS on RACKS on RACKS! 💵💵💵`);
